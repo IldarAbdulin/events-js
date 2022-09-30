@@ -1,0 +1,26 @@
+.container {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.div{
+    cursor: pointer;
+    padding: 20px;
+    background: rgba(0, 173, 130, 0.353);
+}
+
+.task{
+    display: flex;
+}
+.task p {
+    color: rgb(11, 101, 56);
+    font-size: 20px;
+}
+.completed {
+    background: green;
+    color: #fff;
+}
+.completed p {
+    text-decoration: line-through;
+}
